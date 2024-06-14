@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+html{
+    font-size: 10px;
+}
+body{
+    overflow-x: hidden;
+}
+section{
+    width: 100%;
+    height: 100vh;
+}
+.main{
+    background: url(img.jpeg) no-repeat center center / cover;
+}
+a{
+    text-decoration: none;
+}
+header{
+    z-index: 200;
+}
+nav{
+     height: 7vh;
+    padding: 0 4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    transition: all 0.5s;
+    z-index: 1000;
+}
+.logo{
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 400;
+
+}
+nav a{
+    color: white;
+    font-size: 1.6rem;
+    margin-left: 4rem;
+    text-transform: capitalize;
+    transition: all 0.5s;
+}
+.head-content{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.head-content h1{
+    font-size: 6rem;
+    font-weight: 100;
+    color: white;
+    text-transform: capitalize;
+    
+}
+.content{
+    margin-top: 10rem;
+
+}
+.content p{
+    font-size: 1.4rem;
+    padding: 0 4em;
+    margin: 1rem;
+    line-height: 1.7;
+}
+nav.sticky{
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+nav.sticky a{
+    color: black;
+}
+nav.sticky .logo{
+    color: black;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="pstyle.css">
+
+</head>
+<body>
+    <section class="main">
+        <header>
+
+            <nav>
+                <div class="logo">Sectionline</div>
+                <div class="nav-items">
+                    <a href="#">home</a>
+                    <a href="#">Gallery</a>
+                    <a href="#">Contact</a>
+                    <a href="#"><i class="fas fa-search"></i></a>
+                </div>
+            </nav>
+        </header>
+        <div class="head-content">
+            <h1>sticky navbar</h1>
+        </div>
+    </section>
+     <section class="content">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dignissimos rem est ea. Debitis vero voluptates, consectetur aperiam, minus hic animi recusandae vel nam fuga magni non numquam velit accusantium.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga similique, temporibus eaque, eligendi eius labore inventore ducimus dolorem dicta nulla blanditiis quis provident reprehenderit velit nemo, culpa molestias rerum nisi sunt ab non perspiciatis voluptatum quod! Aspernatur magni harum architecto magnam recusandae nam veritatis ipsa, facere, odit eligendi rerum suscipit, perferendis dignissimos labore totam illo accusantium. Aliquid sed sint doloremque doloribus aperiam quaerat eum fuga est consequuntur possimus eaque tempore ipsam enim quisquam nulla, maxime quasi autem eligendi. Iusto nobis velit labore excepturi, laborum repellat. Maxime, quia possimus atque vero cumque molestias consequuntur ex doloribus dolor repellendus soluta impedit quam cupiditate. Earum in ipsum, rerum culpa asperiores quas fuga numquam esse ab aliquid beatae aliquam totam fugiat veritatis maxime nemo doloremque accusamus pariatur at sed error tempora vero. Perferendis in aliquam, nostrum vel qui cumque consequuntur laboriosam deleniti tempora architecto nam voluptates labore eum esse, quo sit fuga rem aut suscipit accusantium rerum velit accusamus odio. Blanditiis consectetur neque, in sunt harum provident officia aut recusandae nulla consequuntur exercitationem delectus quibusdam. Ad aut dolores corporis quaerat quam ipsam exercitationem, explicabo facere! Ipsum, alias, unde consequuntur molestiae quia suscipit ad temporibus sed obcaecati, totam iure reprehenderit libero laborum distinctio facilis labore aliquid optio earum recusandae fuga numquam? Neque similique modi, ea qui recusandae ex magni aliquid ad repellat facilis nihil aspernatur perferendis? Quasi accusamus possimus error autem officia adipisci porro, delectus sit saepe maxime nulla, debitis animi voluptatum quos! Explicabo at culpa magnam eius, dolore optio! Veniam in porro aliquam inventore culpa? Possimus adipisci odio omnis perferendis quo nobis eligendi nesciunt hic inventore officiis quaerat laboriosam aperiam, commodi quas voluptate necessitatibus, beatae repudiandae at vero nisi cum ut sapiente nostrum earum! Mollitia, nisi earum! Soluta quas similique velit voluptatum tempore hic necessitatibus porro aliquam. Perferendis quasi vitae alias consequatur rem maiores?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ipsa officiis eligendi impedit earum itaque voluptates a ab necessitatibus vel, numquam sequi dolor, alias illum quasi corporis doloremque ipsum deleniti?</p>
+        
+     </section>
+     <script>
+        window.addEventListener('scroll', function(){
+            let navbar = document.querySelector('nav');
+            if(window.pageYOffset>100){
+                navbar.classList.add('sticky');
+            }else{
+                navbar.classList.remove('sticky');
+            }
+        });
+     </script>
+    
+</body>
+</html>
